@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Cirrus Habit Tracker",
-    "slug": "habit-wrapper",
+    "name": "Fridge Buddy",
+    "slug": "fridge-wrapper",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/Cirrus_Tracker_Icon.png",
-    "scheme": "habitwrapper",
+    "scheme": "fridgebuddy",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "jsEngine": "jsc",
@@ -21,15 +21,8 @@
         "backgroundColor": "#ffffff"
       },
       "supportsTablet": false,
-      "bundleIdentifier": "com.cirruscommercellc.habittracker",
-      "buildNumber": "9",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false,
-        "NSPhotoLibraryUsageDescription": "We need access to your photo library so you can attach images to your habits.",
-        "NSCameraUsageDescription": "We need camera access so you can take new habit photos.",
-        "NSPhotoLibraryAddUsageDescription": "We save photos you take to your library.",
-        "UIDeviceFamily": [1]
-      }
+      "bundleIdentifier": "com.cirruscommercellc.fridgebuddy",
+      "buildNumber": "1"
     },
     "android": {
       "adaptiveIcon": {
@@ -37,7 +30,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.thorndawg.habitwrapper"
+      "package": "com.thorndawg.fridgebuddy"
     },
     "web": {
       "bundler": "metro",
@@ -46,8 +39,6 @@
     },
     "plugins": [
       "expo-router",
-      "expo-image-picker",
-      "expo-notifications",
       [
         "expo-splash-screen",
         {
@@ -64,8 +55,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "7cf8c389-cf6d-4f94-8483-1a9ba93cbad0"
+        "projectId": "4cb9cd1c-fde2-4648-a8c9-d173ae0609d9"
       }
-    }
+    },
+    "owner": "thorndawg"
   }
 }
