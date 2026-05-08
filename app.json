@@ -1,28 +1,31 @@
 {
   "expo": {
-    "name": "Fridge Buddy",
+    "name": "Fridge Thing",
     "slug": "fridge-wrapper",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/Cirrus_Tracker_Icon.png",
+    "icon": "./assets/Fridge_Thing_Icon.png",
     "scheme": "fridgebuddy",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "jsEngine": "jsc",
     "splash": {
-      "image": "./assets/Cirrus_Tracker_Full.png",
+      "image": "./assets/Fridge_Thing_Icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
       "splash": {
-        "image": "./assets/Cirrus_Tracker_Full.png",
+        "image": "./assets/Fridge_Thing_Icon.png",
         "resizeMode": "contain",
         "backgroundColor": "#ffffff"
       },
       "supportsTablet": false,
-      "bundleIdentifier": "com.cirruscommercellc.fridgebuddy",
-      "buildNumber": "1"
+      "bundleIdentifier": "com.thorndawg.fridgething",
+      "buildNumber": "1",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {

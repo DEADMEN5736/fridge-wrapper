@@ -1,5 +1,7 @@
 {
-  "cli": { "version": ">= 0.34.0" },
+  "cli": {
+    "version": ">= 18.11.0"
+  },
   "build": {
     "development": {
       "developmentClient": true,
@@ -7,12 +9,22 @@
     },
     "production": {
       "ios": {
-        "buildArtifactPaths": ["ios/build/*"],
+        "image": "latest",
+        "buildArtifactPaths": [
+          "ios/build/*"
+        ],
         "env": {
           "EXPO_APPLE_UPLOAD_DYSMS": "1"
         }
       },
       "distribution": "store"
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "simulator": false,
+        "image": "latest"
+      }
     }
   },
   "submit": {
@@ -22,9 +34,9 @@
         "ascApiKeyIssuerId": "690a8071-c731-44ee-bf83-396bd4c2d71a",
         "ascApiKeyId": "455BHY9Q6X",
         "appleId": "danielthornley@icloud.com",
-        "ascAppId": "TODO_FRIDGE_BUDDY_APP_STORE_ID",
+        "ascAppId": "6767539275",
         "appleTeamId": "465UZPL3FY",
-        "bundleIdentifier": "com.cirruscommercellc.fridgebuddy"
+        "bundleIdentifier": "com.thorndawg.fridgething"
       }
     }
   }
