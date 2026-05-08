@@ -25,7 +25,7 @@ export default function App() {
           SplashScreen.hideAsync().catch(() => { });
         }}
         source={{
-          uri: "https://fridge-buddy-euzctmzt0-deadmen5736s-projects.vercel.app/",
+          uri: "https://fridge-buddy-one.vercel.app/",
         }}
       />
     </SafeAreaView>
